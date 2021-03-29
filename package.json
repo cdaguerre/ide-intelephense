@@ -1,11 +1,10 @@
 {
   "name": "ide-intelephense",
   "main": "./lib/ide-intelephense",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A short description of your package",
   "keywords": [],
-  "activationCommands": {
-  },
+  "activationCommands": {},
   "repository": "https://github.com/cdaguerre/ide-intelephense",
   "license": "MIT",
   "engines": {
