@@ -12,6 +12,8 @@
   },
   "dependencies": {
     "atom-languageclient": "1.0.0",
+    "eslint": "^7.23.0",
+    "eslint-config-standard": "^16.0.2",
     "intelephense": "^1.6.3"
   },
   "enhancedScopes": [
@@ -88,6 +90,11 @@
     "outline-view": {
       "versions": {
         "0.1.0": "provideOutlines"
+      }
+    },
+    "code-actions": {
+      "versions": {
+        "0.1.0": "provideCodeActions"
       }
     }
   }
