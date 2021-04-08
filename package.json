@@ -12,9 +12,15 @@
   },
   "dependencies": {
     "atom-languageclient": "1.0.0",
+    "axios": "^0.21.1",
+    "crypto": "^1.0.1",
     "eslint": "^7.23.0",
     "eslint-config-standard": "^16.0.2",
-    "intelephense": "^1.6.3"
+    "fs": "^0.0.1-security",
+    "intelephense": "^1.6.3",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "querystring": "^0.2.1"
   },
   "enhancedScopes": [
     "text.html.php"
@@ -30,7 +36,7 @@
       "title": "Global storage path",
       "type": "string",
       "default": "",
-      "description": "Absolute path to a global storage dir. Defaults to `os.homedir()`."
+      "description": "Absolute path to a global storage dir. Defaults to `os.homedir()/.ide-intelephense`."
     },
     "storagePath": {
       "title": "Storage path",
