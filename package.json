@@ -17,7 +17,7 @@
     "eslint": "^7.23.0",
     "eslint-config-standard": "^16.0.2",
     "fs": "^0.0.1-security",
-    "intelephense": "^1.6.3",
+    "intelephense": "^1.7.1",
     "os": "^0.1.1",
     "path": "^0.12.7",
     "querystring": "^0.2.1"
